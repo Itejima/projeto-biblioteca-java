@@ -6,7 +6,7 @@ A aplicação é um Sistema de Gerenciamento de Biblioteca que utiliza uma arqui
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Backend:** Java 17, Spring Boot, Spring Data JPA, Spring Data MongoDB, Spring Security (para senhas)
 * **Banco de Dados (Híbrido):**
@@ -17,7 +17,7 @@ A aplicação é um Sistema de Gerenciamento de Biblioteca que utiliza uma arqui
 
 ---
 
-## 🏛️ Arquitetura
+##  Arquitetura
 
 A aplicação segue um padrão de API REST:
 
@@ -29,7 +29,7 @@ O Backend (Spring Boot) é responsável por orquestrar os dois bancos de dados:
 
 ---
 
-## 🎯 Demonstração dos Requisitos Obrigatórios
+##  Demonstração dos Requisitos Obrigatórios
 
 Esta seção detalha como cada requisito obrigatório do trabalho foi implementado.
 
@@ -61,7 +61,7 @@ O `script.sql` (incluso neste repositório) contém a implementação completa:
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 #### 1. Pré-requisitos
 * Java 17+ (JDK)
@@ -93,7 +93,7 @@ O `script.sql` (incluso neste repositório) contém a implementação completa:
 
 ---
 
-## 🧪 Como Testar a Aplicação
+##  Como Testar a Aplicação
 
 A aplicação possui dois níveis de acesso: Membro (Grupo 3) e Bibliotecário (Grupo 2).
 
@@ -136,3 +136,4 @@ O registro pelo frontend é bloqueado para Membros. Para criar um Bibliotecário
     ```
 3.  Clique em **Send**.
 4.  Abra o **MongoDB Compass**. Atualize a lista de bancos. Você verá o `biblioteca_reviews` e, dentro dele, a coleção `reviews` com o documento que você acabou de salvar.
+
